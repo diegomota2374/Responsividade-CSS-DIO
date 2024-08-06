@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    color: #23272A;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 21.79px;
+    font-size: 16px;
+    text-align: left;
+}
+
+h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin: 0;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.68px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+header {
+    max-width: 100%;
+    background-image: url(https://s3-alpha-sig.figma.com/img/8565/620e/66413fdaffd7b36fd00f578891f19f7c?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dUOyITFNaxncSagvjcZfaAgU08Ice3q88tyDkkBLpgmBBJ5OvcIzeLUDCcbiI4~XAqJJMzTVmQ~R0~UMC75NhU9k29NQbZUeanOJKeFtpGkqk-fSrJCCsAeSseGXQ4LQpUM~HbsYvxM3KJ7wardG19aDNywj2il~DVq3R3PfywV9o4-2zcZEYEZ0kixwLYMz~7K051d6uSc2JwG8lHWMoLYyZmHLuuszyb7XRkw4N3xVHPr6y~68cLCuDmjDsJn0GFBc3o7Bu896q2Eg2Cp6~DSDqGiCWRYnB8pwdbpRS9FjwwvEric2hRHTspzn3xc7sZqjgfiRJhCrgyank29Fpg__);
+
+    background-size: cover;
+    background-position: -900px;
+}
+
+header .HeaderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 30px;
+    max-width: 700px;
+    margin: auto;
+}
+
+header .HeaderContent h1 {
+    width: 278px;
+}
+
+header .HeaderContent p {
+    color: #FFFFFF;
+
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 28px;
+    width: 281px;
+    /* Bordas arredondadas */
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #23272A;
+    /* branca */
+}
+
+.btn-primary:hover {
+    background-color: #b1b6b1;
+    /* Verde escuro ao passar o mouse */
+}
+
+.btn-secondary {
+    background-color: #23272A;
+    /* Azul */
+}
+
+.btn-secondary:hover {
+    background-color: #495157;
+    /* Azul escuro ao passar o mouse */
+}
+
+@media screen and (min-width: 450px) {
+    header {
+        background-position: center;
+    }
+
+    header .HeaderContent {
+        align-items: center;
+        text-align: center;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .buttons {
+        flex-direction: row;
+    }
+}
+
+.body {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.Section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+
+}
+
+.Section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: #F6F6F6;
+
+}
+
+.Section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+.Section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: #F6F6F6;
+    margin: auto;
+
+    h2 {
+        font-family: Luckiest Guy;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23272A;
+    padding: 50px;
+}
+
+@media screen and (min-width: 700px) {
+    .Section1 {
+        flex-direction: row;
+
+        h2 {
+            font-size: 56px;
+            line-height: 56px;
+            text-align: center;
+        }
+    }
+
+    .Section2 {
+        flex-direction: row-reverse;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 54.47px;
+            text-align: left;
+        }
+    }
+
+    .Section3 {
+        flex-direction: row;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 54.47px;
+            text-align: left;
+        }
+    }
+
+    .Section4 {
+        padding: 40px 60px 40px 60px;
+
+        div {
+            max-width: 600px;
+            text-align: center;
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+}
